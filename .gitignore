@@ -1,0 +1,14 @@
+*.c
+*.txt
+*.xml
+*.java
+*.html
+*.tex
+*.pdf
+
+*.swp
+
+*.c~
+*.c.un~
+
+*.un~
