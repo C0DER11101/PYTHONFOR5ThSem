@@ -1,0 +1,5 @@
+for i in range(5):
+	print(i, end=" ");
+	
+
+The end=” “ is used to print in the same line with space after each element. It prints a space after each element in the same line.
