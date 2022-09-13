@@ -1,0 +1,26 @@
+a=[1, 2, 3, 4]
+
+b.append(a);
+b.append(a);
+
+print(b);
+print(b[0][0]);
+
+now this will show the output as:
+
+[[1, 2, 3, 4], [1, 2, 3, 4]]
+
+Now, the concept is same as C/C++ matrices, just a lot simpler now, because
+we can actually visualize the 2d matrices.
+
+so the b is a 2d list, that contains 2 elements which are basically two lists.
+
+the 0th element is the first list([1, 2, 3, 4]) and the 1st element is
+the second list([1, 2, 3, 4]);
+
+now, when you write b[0][0], this basically means that you want to access the 0th element of the 0th list(i.e [1, 2, 3, 4])
+
+so, b[0][0]
+      |  |____________> this indicates the index of the element in the required list that we are trying to access!!
+      v
+      this indicates the index of the list that we are trying to access
