@@ -1,5 +1,6 @@
-#Write a program in PYTHON to sum the series 1/2 + 2/3 +..........+n/n+1. Also write the
-#algorithm and calculate the worst case complexity and space complexity.
+#Write a program in PYTHON to sum the series 1/2 + 2/3 +..........+n/n+1.
+#Also write the algorithm and calculate 
+#the worst case complexity and space complexity.
 
 import time
 num=int(input("enter num: "));
