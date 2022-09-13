@@ -1,0 +1,28 @@
+a=input().split();
+print(a);
+
+this basically gets as many inputs as possible in the same line and makes
+a list of those inputs but those inputs are taken as string by default.
+So the output of the above print(a) is a list containing all the inputs
+provided by the user.
+
+b=[int(j) for j in input().split()]
+
+the outer square brackets are provided for int(j) part, actually here we are
+typcasting the input provided by the user to integer(it's string by default).
+Don't get confused, b=[int(j) for  j in input().split()] doesnot create a list of lists(just because there is an outer square bracket [int(j)....]).
+
+first we have typecasted j into int and then we have taken input from the
+user.
+
+Also remember one thing:
+
+when you want to append multiple inputs to a list, use the split() function like this:
+
+a=[]
+
+a.append([int(j) for j in input().split()]);
+
+OR IF YOU WANT STRING INPUTS:
+
+a.append([str(j) for j in input().split()]);
