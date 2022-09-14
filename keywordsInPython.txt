@@ -1,0 +1,25 @@
+KEYWORDS IN PYTHON:
+
+and	as	assert	break
+-----------------------------------
+class	continue	def	del
+-----------------------------------
+elif	else	except	False
+-----------------------------------
+finally	for	from	global
+-----------------------------------
+if	import	in	is
+-----------------------------------
+lambda	None	nonlocal	not
+-----------------------------------
+or	pass	raise	return
+-----------------------------------
+True	try	while	with
+-----------------------------------
+yield
+-----------------------------------
+
+
+KEYWORDS IN PYTHON:
+
+[‘False’, ‘None’, ‘True’, ‘and’, ‘as’, ‘assert’, ‘async’, ‘await’, ‘break’, ‘class’, ‘continue’, ‘def’, ‘del’, ‘elif’, ‘else’, ‘except’, ‘finally’, ‘for’, ‘from’, ‘global’, ‘if’, ‘import’, ‘in’, ‘is’, ‘lambda’, ‘nonlocal’, ‘not’, ‘or’, ‘pass’, ‘raise’, ‘return’, ‘try’, ‘while’, ‘with’, ‘yield’]
