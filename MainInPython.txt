@@ -1,0 +1,9 @@
+if __name__=="__main__":
+	#code
+
+this statement checks whether the python interpreter is running the current python file as main or not, which the interpreter will obviously
+run as main file so if __name__=="__main__" will evaluate to true!!
+
+
+This if statement evaluates to true only if the file is run without importing it into other programs.
+If it's imported in other programs and run, then its if __name__=="__main__" condition evaluates to false!!
