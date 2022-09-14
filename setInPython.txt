@@ -1,0 +1,25 @@
+set() is a function that takes an argument of iterable type e.g. lists, tuples and dictionaries!!
+
+set() is the same set that we encountered in mathematics; all elements in a set are unique.
+
+-----------------------------------------------
+|s2=set(['a', 'b', 'a', 'c', 'd', 'b']);      |
+|                                             |
+|print(s2);                                   |
+-----------------------------------------------
+
+now set() takes the list ['a', 'b', 'a', 'c', 'd', 'b'] as its argument and
+print(s2) prints the set s2 which contains {'c', 'd', 'a', 'b'}
+----------------------------
+|notice that the duplicate |
+|elements have been removed|
+----------------------------
+
+
+Same is the case with this one:
+
+a=["C++", "C", "Python", "Java", "C++", "Go", "JavaScript", "Java"];
+
+Set=set(a);
+
+print(Set);
