@@ -1,0 +1,11 @@
+for i in range(0, 10, 2):
+	print(i);
+
+so output will be:
+0
+2
+4
+6
+8
+
+because the offset is 2(third argument in range())
