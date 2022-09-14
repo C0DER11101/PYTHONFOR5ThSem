@@ -1,0 +1,38 @@
+the math module!!
+
+math module contains a function called fabs()
+fabs() returns an absolute floating point number.
+
+
+e.g.
+
+----------------------------
+|import math               |
+|                          |
+|num=-85;                  |
+|result=math.fabs(num);    |
+|print(result);            |
+----------------------------
+
+this prints
+85.0
+
+But if I typecast it as:
+print(int(result));
+then it prints:
+85
+
+--------------------------------------------------------------------
+|import math                                                       |
+|                                                                  |
+|def FindABS(num):  # arguments                                    |
+|    absInt=math.fabs(num);                                        |
+|                                                                  |
+|    return absInt;                                                |
+|                                                                  |
+|if __name__=="__main__":                                          |
+|                                                                  |
+|    num=int(input("enter a number: "));                           |
+|    print(f"Absolute value of a {num} is {int(FindABS(num))}\n"); |
+--------------------------------------------------------------------
+the same idea has been applied on this one
