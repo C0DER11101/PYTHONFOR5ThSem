@@ -11,3 +11,5 @@
 *.c.un~
 
 *.un~
+.ipynb_checkpoints/
+*.ipynb
