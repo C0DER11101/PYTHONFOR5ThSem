@@ -1,0 +1,15 @@
+						THE YIELD KEYWORD
+
+
+What the yield keyword do:
+
+>Yield keyword is used to create a generator function. A type of function that is memory efficient and can be used like an iterator 
+object.
+
+The main difference between yield and return keyword is, the return statement terminates the execution of the function.
+Whereas, the yield statement only pauses the execution of the function(and then resumes it afterwards).
+
+
+The yield keyword will turn any expression that is given with it into a generator object and return it to the caller.
+Therefore, you must iterate over the generator object if you wish to obtain the values stored there. 
+We will see the yield python example.
