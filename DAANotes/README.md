@@ -1,6 +1,6 @@
 # Description
 
-Hi :wave:, this folder will contain notes on Design ad Analysis of Algorithms!
+Hi :wave:, this folder will contain notes on Design and Analysis of Algorithms!
 
 _This repository will be kept private_
 
