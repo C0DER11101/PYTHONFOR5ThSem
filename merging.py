@@ -41,8 +41,6 @@ def Merge(a1, a2, size1, size2, result):
                 result.append(a1[a1Ind]);
                 a1Ind+=1;
 
-    return (size1+size2);
-
 
 result=list();
 a1=list();
@@ -61,7 +59,7 @@ for i in range(size2):
     el=int(input());
     a2.append(el);
 
-resultSize=Merge(a1, a2, size1, size2, result);
+Merge(a1, a2, size1, size2, result);
 
 print("you arrays after sorting:\n");
 
