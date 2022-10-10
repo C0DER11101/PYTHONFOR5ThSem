@@ -10,9 +10,7 @@ def switch(opt, num1, num2, num3):
         return -1;
 
     else:
-        print("Invalid option!!\n");
-
-    return -2;
+        return -2;
 
 num1=int(input("enter first number: "));
 num2=int(input("enter second number: "));
