@@ -1,15 +1,12 @@
-# run python scripts
+# run python scripts by detecting extensions!!
 
-if [ -e $1 ]
-then
-	if [ -f $1 ]
-	then
+case ${1##*.} in
+	"py")
 		python3 $1
+		;;
 
-	else
-		echo "$1 is not a file!!"
-	fi
+	*)
+		echo "Please enter a .py file!!"
+		;;
 
-else
-	echo "$1 doesnot exist!!"
-fi
+	esac
