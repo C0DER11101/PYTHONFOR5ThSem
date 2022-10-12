@@ -16,3 +16,6 @@ print(f"Array: {arr}");
 print(f"Mid = {mid}");
 print(arr[:mid]);
 print(arr[mid:]);
+
+print(len(arr[:mid]));
+print(len(arr[mid:]));
