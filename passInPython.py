@@ -1,7 +1,5 @@
 # The 'pass' keyword in Python
 
-i=0
-
 for i in range(10):
     pass
 
