@@ -6,7 +6,7 @@ _This method is used **parse** the values yielded by a generator._
 
 When we do this:
 
-```pytohon3
+```python3
 g=numberGenerator(10); # for some generator function numberGenerator()!!
 ```
 
