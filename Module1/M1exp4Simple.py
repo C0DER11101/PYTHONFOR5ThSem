@@ -40,3 +40,11 @@ for i in range(row):
         pass;
     print();
     pass;
+
+print("\nSum:\n");
+for i in range(row):
+    for j in range(col):
+        print(matrix1[i][j]+matrix2[i][j], end=' ');
+        pass;
+    print();
+    pass;
