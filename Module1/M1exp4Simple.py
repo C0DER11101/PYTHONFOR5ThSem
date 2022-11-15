@@ -33,7 +33,7 @@ for i in range(row):
     print();
     pass;
 
-print("\nMatrix-1:\n");
+print("\nMatrix-2:\n");
 for i in range(row):
     for j in range(col):
         print(matrix2[i][j], end=' ');
