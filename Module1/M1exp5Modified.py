@@ -6,9 +6,6 @@ substr=input("enter a substring: ");
 i=0;
 j=0;
 
-isSubstr=False;
-contiguous=0;
-
 while i<len(string):
     if string[i]==substr[j]:
         j+=1;
