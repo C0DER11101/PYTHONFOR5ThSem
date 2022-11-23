@@ -7,6 +7,10 @@ a=list(s);
 #print(a[0]);
 #print(a[1]);
 
-#a[1]=a[2];
 print(a);
+
+a[1]=a[2];
+
+print(a);
+
 print(len(a));
