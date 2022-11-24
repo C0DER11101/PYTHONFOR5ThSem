@@ -2,10 +2,6 @@
 
 import array as arr
 
-"""
-[Link]: https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
-"""
-
 def sort(ar, size):
     for i in range(size):
         for j in range(size-1):
